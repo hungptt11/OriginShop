@@ -1,0 +1,5 @@
+D:\OriginShop\OriginCoffeeShop\ProjectConstant\bin\Debug\ProjectConstant.dll
+D:\OriginShop\OriginCoffeeShop\ProjectConstant\bin\Debug\ProjectConstant.pdb
+D:\OriginShop\OriginCoffeeShop\ProjectConstant\obj\Debug\ProjectConstant.csproj.CoreCompileInputs.cache
+D:\OriginShop\OriginCoffeeShop\ProjectConstant\obj\Debug\ProjectConstant.dll
+D:\OriginShop\OriginCoffeeShop\ProjectConstant\obj\Debug\ProjectConstant.pdb

@@ -1,0 +1,12 @@
+D:\OriginShop\OriginCoffeeShopWithAngular6\Repository\bin\Debug\netcoreapp2.1\CML.NetCore.Repository.deps.json
+D:\OriginShop\OriginCoffeeShopWithAngular6\Repository\bin\Debug\netcoreapp2.1\CML.NetCore.Repository.dll
+D:\OriginShop\OriginCoffeeShopWithAngular6\Repository\bin\Debug\netcoreapp2.1\CML.NetCore.Repository.pdb
+D:\OriginShop\OriginCoffeeShopWithAngular6\Repository\bin\Debug\netcoreapp2.1\CML.NetCore.Models.dll
+D:\OriginShop\OriginCoffeeShopWithAngular6\Repository\bin\Debug\netcoreapp2.1\CML.NetCore.Models.pdb
+D:\OriginShop\OriginCoffeeShopWithAngular6\Repository\obj\Debug\netcoreapp2.1\CML.NetCore.Repository.csprojAssemblyReference.cache
+D:\OriginShop\OriginCoffeeShopWithAngular6\Repository\obj\Debug\netcoreapp2.1\CML.NetCore.Repository.csproj.CoreCompileInputs.cache
+D:\OriginShop\OriginCoffeeShopWithAngular6\Repository\obj\Debug\netcoreapp2.1\CML.NetCore.Repository.AssemblyInfoInputs.cache
+D:\OriginShop\OriginCoffeeShopWithAngular6\Repository\obj\Debug\netcoreapp2.1\CML.NetCore.Repository.AssemblyInfo.cs
+D:\OriginShop\OriginCoffeeShopWithAngular6\Repository\obj\Debug\netcoreapp2.1\CML.NetCore.Repository.csproj.CopyComplete
+D:\OriginShop\OriginCoffeeShopWithAngular6\Repository\obj\Debug\netcoreapp2.1\CML.NetCore.Repository.dll
+D:\OriginShop\OriginCoffeeShopWithAngular6\Repository\obj\Debug\netcoreapp2.1\CML.NetCore.Repository.pdb

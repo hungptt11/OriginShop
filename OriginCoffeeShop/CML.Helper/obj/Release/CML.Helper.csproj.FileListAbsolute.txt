@@ -1,0 +1,17 @@
+D:\GitOriginManagement\OriginCoffeManagement\CML.Helper\bin\Release\CML.Helper.dll.config
+D:\GitOriginManagement\OriginCoffeManagement\CML.Helper\bin\Release\CML.Helper.dll
+D:\GitOriginManagement\OriginCoffeManagement\CML.Helper\bin\Release\CML.Helper.pdb
+D:\GitOriginManagement\OriginCoffeManagement\CML.Helper\bin\Release\CML.Models.dll
+D:\GitOriginManagement\OriginCoffeManagement\CML.Helper\bin\Release\EntityFramework.dll
+D:\GitOriginManagement\OriginCoffeManagement\CML.Helper\bin\Release\EntityFramework.SqlServer.dll
+D:\GitOriginManagement\OriginCoffeManagement\CML.Helper\bin\Release\EntityFrameworkExtras.EF6.dll
+D:\GitOriginManagement\OriginCoffeManagement\CML.Helper\bin\Release\log4net.dll
+D:\GitOriginManagement\OriginCoffeManagement\CML.Helper\bin\Release\SendFiles.dll
+D:\GitOriginManagement\OriginCoffeManagement\CML.Helper\bin\Release\CML.Models.pdb
+D:\GitOriginManagement\OriginCoffeManagement\CML.Helper\bin\Release\EntityFramework.xml
+D:\GitOriginManagement\OriginCoffeManagement\CML.Helper\bin\Release\EntityFramework.SqlServer.xml
+D:\GitOriginManagement\OriginCoffeManagement\CML.Helper\bin\Release\EntityFrameworkExtras.EF6.pdb
+D:\GitOriginManagement\OriginCoffeManagement\CML.Helper\bin\Release\log4net.xml
+D:\GitOriginManagement\OriginCoffeManagement\CML.Helper\obj\Release\CML.Helper.csprojResolveAssemblyReference.cache
+D:\GitOriginManagement\OriginCoffeManagement\CML.Helper\obj\Release\CML.Helper.dll
+D:\GitOriginManagement\OriginCoffeManagement\CML.Helper\obj\Release\CML.Helper.pdb

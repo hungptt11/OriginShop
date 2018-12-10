@@ -1,0 +1,14 @@
+D:\OriginShop\OriginCoffeeShopWithAngular6\CML.NetCore.Services\bin\Debug\netcoreapp2.1\CML.NetCore.Services.deps.json
+D:\OriginShop\OriginCoffeeShopWithAngular6\CML.NetCore.Services\bin\Debug\netcoreapp2.1\CML.NetCore.Services.dll
+D:\OriginShop\OriginCoffeeShopWithAngular6\CML.NetCore.Services\bin\Debug\netcoreapp2.1\CML.NetCore.Services.pdb
+D:\OriginShop\OriginCoffeeShopWithAngular6\CML.NetCore.Services\bin\Debug\netcoreapp2.1\CML.NetCore.Models.dll
+D:\OriginShop\OriginCoffeeShopWithAngular6\CML.NetCore.Services\bin\Debug\netcoreapp2.1\CML.NetCore.Repository.dll
+D:\OriginShop\OriginCoffeeShopWithAngular6\CML.NetCore.Services\bin\Debug\netcoreapp2.1\CML.NetCore.Models.pdb
+D:\OriginShop\OriginCoffeeShopWithAngular6\CML.NetCore.Services\bin\Debug\netcoreapp2.1\CML.NetCore.Repository.pdb
+D:\OriginShop\OriginCoffeeShopWithAngular6\CML.NetCore.Services\obj\Debug\netcoreapp2.1\CML.NetCore.Services.csprojAssemblyReference.cache
+D:\OriginShop\OriginCoffeeShopWithAngular6\CML.NetCore.Services\obj\Debug\netcoreapp2.1\CML.NetCore.Services.csproj.CoreCompileInputs.cache
+D:\OriginShop\OriginCoffeeShopWithAngular6\CML.NetCore.Services\obj\Debug\netcoreapp2.1\CML.NetCore.Services.AssemblyInfoInputs.cache
+D:\OriginShop\OriginCoffeeShopWithAngular6\CML.NetCore.Services\obj\Debug\netcoreapp2.1\CML.NetCore.Services.AssemblyInfo.cs
+D:\OriginShop\OriginCoffeeShopWithAngular6\CML.NetCore.Services\obj\Debug\netcoreapp2.1\CML.NetCore.Services.csproj.CopyComplete
+D:\OriginShop\OriginCoffeeShopWithAngular6\CML.NetCore.Services\obj\Debug\netcoreapp2.1\CML.NetCore.Services.dll
+D:\OriginShop\OriginCoffeeShopWithAngular6\CML.NetCore.Services\obj\Debug\netcoreapp2.1\CML.NetCore.Services.pdb

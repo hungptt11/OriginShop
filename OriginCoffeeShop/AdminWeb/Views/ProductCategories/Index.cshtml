@@ -1,0 +1,118 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section Styles {
+    <link href="~/Assets/plugins/datatables/dataTables.bootstrap.css" rel="stylesheet" />
+}
+<h2>Danh Mục Loại Sản Phẩm</h2>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" onclick="clearTextBox('#inputform');">Thêm Mới Loại Sản Phẩm</button><br /><br />
+<div class="row">
+    <div class="col-md-12">
+        <div class="box">
+            <div class="box-header with-border">
+                <h3 class="box-title">Danh sách</h3>
+            </div><!-- /.box-header -->
+            <div class="box-body">
+                <table id="thanhphamtable" class="table table-bordered table-hover">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Tên Loại Sản Phẩm</th>
+                            <th>Meta-title</th>
+                            <th>Trạng Thái</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody id="nguyenlieutablebody" class="tbody"></tbody>
+                    <tfoot>
+                        <tr>
+                            <th>ID</th>
+                            <th>Tên Loại Sản Phẩm</th>
+                            <th>Meta-title</th>
+                            <th>Trạng Thái</th>
+                            <th>Action</th>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+            <div class="overlay">
+                <i class="fa fa-refresh fa-spin"></i>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">×</button>
+                <h4 class="modal-title" id="myModalLabel">Thêm Loại Sản Phẩm</h4>
+            </div>
+            <input type="hidden" id="Id" />
+            <div class="modal-body">
+                <form id="inputform">
+                    <div class="form-group">
+                        <label for="Name">Loại Sản Phẩm</label>
+                        <input type="text" class="form-control" id="Name" placeholder="Loại Sản Phẩm" />
+                    </div>
+                    <div class="form-group">
+                        <label for="MetaTitle">Meta-title</label>
+                        <input type="text" class="form-control" id="MetaTitle" placeholder="Meta-title" />
+                    </div>
+                    <div class="form-group">
+                        <div class="pretty p-default">
+                            <input type="checkbox" id="ActiveStatus" class="pull-left" />
+                            <div class="state p-primary">
+                                <label>Active</label>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" id="btnAdd" onclick="return AddRecord();">Add</button>
+                <button type="button" class="btn btn-primary" id="btnUpdate" style="display:none;" onclick="UpdateRecord();">Update</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    <script>
+        var ref;
+        $(document).ready(function () {
+            ref = $("#thanhphamtable").DataTable({ "scrollX": true });
+        });
+        function GenHtml(result)
+        {
+            ref.clear().draw();
+            var html = '';
+            var html2 = '';
+            var i = 0;
+            $.each(result, function (key, item) {
+                if (item.ActiveStatus) {
+                    html = '<span class="label label-success">Active';
+                } else {
+                    html = '<span class="label label-danger">InActive';
+                }
+                html2 = '<a href="#" onclick="return getbyID(' + item.Id + ')">Edit</a> | <a href="#" onclick="DeleteRecord(' + item.Id + ')">Delete</a>';
+                ref.row.add([
+                       ++i,
+                       item.Name,
+                       item.MetaTitle,
+                       html,
+                       html2
+                ])
+            });
+            ref.draw(false);
+        }
+    </script>
+    <script src="~/Assets/Project/Js/common.js"></script>
+    <script src="~/Assets/Project/Js/DanhMuc/ProductCategories.js"></script>
+}
+
+
+
+
+
+

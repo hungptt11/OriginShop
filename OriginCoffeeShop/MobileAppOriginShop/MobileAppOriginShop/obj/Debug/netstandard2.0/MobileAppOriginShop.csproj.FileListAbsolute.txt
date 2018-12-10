@@ -1,0 +1,17 @@
+D:\OriginShop\OriginCoffeeShop\MobileAppOriginShop\MobileAppOriginShop\bin\Debug\netstandard2.0\MobileAppOriginShop.deps.json
+D:\OriginShop\OriginCoffeeShop\MobileAppOriginShop\MobileAppOriginShop\bin\Debug\netstandard2.0\MobileAppOriginShop.dll
+D:\OriginShop\OriginCoffeeShop\MobileAppOriginShop\MobileAppOriginShop\bin\Debug\netstandard2.0\MobileAppOriginShop.pdb
+D:\OriginShop\OriginCoffeeShop\MobileAppOriginShop\MobileAppOriginShop\obj\Debug\netstandard2.0\MobileAppOriginShop.csprojAssemblyReference.cache
+D:\OriginShop\OriginCoffeeShop\MobileAppOriginShop\MobileAppOriginShop\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\OriginShop\OriginCoffeeShop\MobileAppOriginShop\MobileAppOriginShop\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+D:\OriginShop\OriginCoffeeShop\MobileAppOriginShop\MobileAppOriginShop\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+D:\OriginShop\OriginCoffeeShop\MobileAppOriginShop\MobileAppOriginShop\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+D:\OriginShop\OriginCoffeeShop\MobileAppOriginShop\MobileAppOriginShop\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+D:\OriginShop\OriginCoffeeShop\MobileAppOriginShop\MobileAppOriginShop\obj\Debug\netstandard2.0\Views\MenuPage.xaml.g.cs
+D:\OriginShop\OriginCoffeeShop\MobileAppOriginShop\MobileAppOriginShop\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+D:\OriginShop\OriginCoffeeShop\MobileAppOriginShop\MobileAppOriginShop\obj\Debug\netstandard2.0\MobileAppOriginShop.csproj.CoreCompileInputs.cache
+D:\OriginShop\OriginCoffeeShop\MobileAppOriginShop\MobileAppOriginShop\obj\Debug\netstandard2.0\MobileAppOriginShop.AssemblyInfoInputs.cache
+D:\OriginShop\OriginCoffeeShop\MobileAppOriginShop\MobileAppOriginShop\obj\Debug\netstandard2.0\MobileAppOriginShop.AssemblyInfo.cs
+D:\OriginShop\OriginCoffeeShop\MobileAppOriginShop\MobileAppOriginShop\obj\Debug\netstandard2.0\XamlC.stamp
+D:\OriginShop\OriginCoffeeShop\MobileAppOriginShop\MobileAppOriginShop\obj\Debug\netstandard2.0\MobileAppOriginShop.dll
+D:\OriginShop\OriginCoffeeShop\MobileAppOriginShop\MobileAppOriginShop\obj\Debug\netstandard2.0\MobileAppOriginShop.pdb

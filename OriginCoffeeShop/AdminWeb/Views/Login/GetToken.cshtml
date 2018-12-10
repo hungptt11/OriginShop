@@ -1,0 +1,105 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Origin Management</title>
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <!-- Bootstrap 3.3.4 -->
+    <link rel="stylesheet" href="~/Assets/bootstrap/css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="~/Assets/dist/css/AdminLTE.min.css">
+    <!-- iCheck -->
+    <link rel="stylesheet" href="~/Assets/plugins/iCheck/square/blue.css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body class="login-page">
+    <style>
+        .footercustomize {
+            background-color: white;
+            padding-bottom: 30px;
+            padding-top: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+    <div class="login-box">
+        <div class="login-logo">
+            <a><b>Origin</b>Token</a>
+        </div><!-- /.login-logo -->
+        <div class="login-box-body">
+            <p class="login-box-msg">Enter username to get your token</p>
+            <div class="form-group has-feedback">
+                <input type="text" class="form-control" id="username" placeholder="Username">
+                <span class="glyphicon glyphicon-user form-control-feedback"></span>
+            </div>
+            <div class="form-group has-feedback">
+                <input type="text" disabled="disabled" id="tokenvalue" class="form-control" placeholder="Token Number">
+                <span class="glyphicon glyphicon-fire form-control-feedback"></span>
+            </div>
+            <div class="row">
+                <div class="col-xs-4 pull-right">
+                    <button type="button" id="GetToken" class="btn btn-primary btn-block btn-flat">Get Token</button>
+                </div><!-- /.col -->
+                <div class="overlay">
+                    <i class="fa fa-refresh fa-spin"></i>
+                </div>
+            </div>
+
+        </div><!-- /.login-box-body -->
+        <div class="callout callout-warning">
+            <h4>Warrning!</h4>
+            <p>Nếu không get được token vui lòng liên hệ system admin.</p>
+        </div>
+
+    </div><!-- /.login-box -->
+    <footer class="footercustomize">
+        <div class="pull-right hidden-xs">
+            <b>Version</b> 1.0.0
+        </div>
+        <strong>Copyright &copy; 2019-2020 <a href="https://www.facebook.com/hung.pham.7587">Pham The Hung</a>.</strong> All rights reserved.
+    </footer>
+    <!-- jQuery 2.1.4 -->
+    <script src="~/Assets/plugins/jQuery/jQuery-2.1.4.min.js"></script>
+    <!-- Bootstrap 3.3.4 -->
+    <script src="~/Assets/bootstrap/js/bootstrap.min.js"></script>
+    <!-- iCheck -->
+    <script>
+        $(document).ready(function () {
+            $('.overlay').hide();
+            $("#GetToken").click(function () {
+                $('.overlay').show();
+                $.ajax({
+                    url: '/Login/TokenResult?username=' + $("#username").val(),
+                    type: "POST",
+                    contentType: "application/json;charset=utf-8",
+                    dataType: "json",
+                    success: function (result) {
+                        if (result.Return_Cd == false) {
+                            alert(result.ErrorMess);
+                        } else {
+                            $("#tokenvalue").val(result.ErrorMess);
+                        }
+                        $('.overlay').hide();
+                    },
+                    error: function (errormessage) {
+                        alert(errormessage.responseText);
+                    }
+                });
+            });
+        });
+
+    </script>
+</body>
+</html>

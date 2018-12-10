@@ -1,0 +1,8 @@
+D:\OriginShop\OriginCoffeeShopWithAngular6\CML.NetCore.Models\bin\Debug\netcoreapp2.1\CML.NetCore.Models.deps.json
+D:\OriginShop\OriginCoffeeShopWithAngular6\CML.NetCore.Models\bin\Debug\netcoreapp2.1\CML.NetCore.Models.dll
+D:\OriginShop\OriginCoffeeShopWithAngular6\CML.NetCore.Models\bin\Debug\netcoreapp2.1\CML.NetCore.Models.pdb
+D:\OriginShop\OriginCoffeeShopWithAngular6\CML.NetCore.Models\obj\Debug\netcoreapp2.1\CML.NetCore.Models.csproj.CoreCompileInputs.cache
+D:\OriginShop\OriginCoffeeShopWithAngular6\CML.NetCore.Models\obj\Debug\netcoreapp2.1\CML.NetCore.Models.AssemblyInfoInputs.cache
+D:\OriginShop\OriginCoffeeShopWithAngular6\CML.NetCore.Models\obj\Debug\netcoreapp2.1\CML.NetCore.Models.AssemblyInfo.cs
+D:\OriginShop\OriginCoffeeShopWithAngular6\CML.NetCore.Models\obj\Debug\netcoreapp2.1\CML.NetCore.Models.dll
+D:\OriginShop\OriginCoffeeShopWithAngular6\CML.NetCore.Models\obj\Debug\netcoreapp2.1\CML.NetCore.Models.pdb

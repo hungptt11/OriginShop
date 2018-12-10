@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CML.NetCore.Models\CML.NetCore.Models.csproj" />
+    <ProjectReference Include="..\Repository\CML.NetCore.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
