@@ -25,6 +25,7 @@ namespace OriginCoffeeApi.Controllers.Admin
         }
         // GET api/<controller>
         [HttpGet]
+        [Route("GetList")]
         public List<Products> Get()
         {
             return CacheManagement.GetListProducts();
@@ -32,6 +33,7 @@ namespace OriginCoffeeApi.Controllers.Admin
 
         // GET api/<controller>/5
         [HttpGet]
+        [Route("GetById")]
         public IHttpActionResult Get(int id)
         {
             var product = CacheManagement.GetListProducts().SingleOrDefault(i => i.Id == id);
@@ -44,6 +46,7 @@ namespace OriginCoffeeApi.Controllers.Admin
 
         // POST api/<controller>
         [HttpPost]
+        [Route("PostProduct")]
         public IHttpActionResult Post(Products model)
         {
             if(ModelState.IsValid)
@@ -60,6 +63,7 @@ namespace OriginCoffeeApi.Controllers.Admin
 
         // PUT api/<controller>/5
         [HttpPut]
+        [Route("PutProduct")]
         public IHttpActionResult Put(int id, Products model)
         {
             if (ModelState.IsValid && id != model.Id)
@@ -76,6 +80,7 @@ namespace OriginCoffeeApi.Controllers.Admin
 
         // DELETE api/<controller>/5
         [HttpDelete]
+        [Route("DeleteProduct")]
         public IHttpActionResult Delete(int id)
         {
             if (_iProductsBusiness.Delete(id))
